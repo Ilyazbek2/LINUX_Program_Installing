@@ -1,0 +1,9 @@
+# Initialize Git
+git init
+git add .
+git commit -m "Initial commit - Linux on Windows project"
+
+# Connect to GitHub
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/linux-on-windows.git
+git push -u origin main
